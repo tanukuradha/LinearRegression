@@ -1,5 +1,6 @@
+
 # Project Name
-> Outline a brief description of your project.
+Demand for shared Bikes
 
 
 ## Table of Contents
@@ -8,45 +9,51 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
-
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- This project focuses to model the demand for shared bikes with the available independent variables.
+- It will be used by the management to understand how exactly the demands vary with different features. 
+- They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. 
+- Further, the model will be a good way for management to understand the demand dynamics of a new market.
+- The dataset used in this project is the day.csv provided for our case study.
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+Strong positive or negative correlations are indicated by darker colours of blue or red, respectively, in the heatmap that displays the correlation between the variables. Some factors that are related to forecasting the demand for shared bikes (variable cnt) are as follows:
+
+-Important Factors Year (yr):
+
+significant positive association (0.57) with cnt.
+shows a discernible rise in the demand for bikes over time.
+
+-Temperature (temp and atemp):
+
+There is a high positive association between both factors and cnt (0.63 each).
+In general, more people ride bikes in warmer weather.
+
+-Season (season):
+
+0.4 indicates a somewhat positive connection with cnt.
+indicates that some seasons, such as spring or summer, have more demand.
+
+-Windspeed (windspeed):
+
+cnt has a weakly negative correlation (-0.24).
+suggests that strong wind speeds could marginally lower consumption.
+
+-The current weather conditions (weathersit):
+
+cnt has a moderately negative correlation (-0.3).
+Unfavourable weather conditions, such as rain or snow
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+- Python: 3.9.19
+- pandas: 1.4.0
+- seaborn: 0.11.2
+- matplotlib: 3.5.1
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+- The dataset used in this project was sourced from a Upgrad.
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by @tanukuradha - feel free to contact me!
